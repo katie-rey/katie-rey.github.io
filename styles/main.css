@@ -1,0 +1,250 @@
+* { 
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0; 
+  
+}
+
+body {
+  background-color: rgb(156,229,228);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%; 
+}
+
+li, a, button, h3  {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; 
+  font-size: 16px; 
+  color: #0088a9;
+  text-decoration: none; 
+}
+
+h3 {
+  cursor: pointer;
+
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li { 
+display: inline-block;
+padding: 0px 20px ;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s; 
+}
+
+.nav-links li a:hover {
+  color: #ecf0f1
+}
+
+button { 
+  padding: 9px 25px; 
+  background-color: rgba(0,136,196,1);
+  border: none;
+  border-radius: 400%;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0,136,196,0.8);
+}
+
+.menu {
+  /* background-color:  #67edf7 */
+  ;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* align-content: space-between; */
+}
+
+.logo { 
+  border-radius: 20%;
+  margin-top: 20px; 
+  width: 40vw;
+  max-width: 400px;
+}
+
+.about { 
+  width: 50vw;
+  /* border-radius: ; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  }
+
+.about-content { 
+  padding: 30px 30px; 
+  
+  /* height: 300px; */
+
+}
+
+
+#about { 
+  background-color: rgb(251,244,244);
+  margin-top: 20px;
+} 
+
+p { 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; 
+  font-size: 18px; 
+  text-decoration: none; 
+}
+
+.profile-pic { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#profile-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-right: 10vmin; 
+  padding: 20px;
+  border: 1px solid rgb(190,237,216);
+}
+
+hr {
+  width: 60%;
+  height: 5%;
+  background-image: url("freesvg.org/img/Birds-On-A-Wire-Silhouette.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  /* .. */
+}
+
+.values { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(251,244,244);
+margin-top: 20px;
+
+width: 50vw;
+}
+
+.values-content { 
+  padding: 30px;
+}
+
+ul {
+  list-style-position: inside;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+
+/* }
+#content-header { 
+  padding: 20px; 
+} */
+/* body { 
+  margin: auto;
+  background-color: rgb(250, 216, 216);
+  display: flex; 
+  font-family: "archivo", sans-serif;
+  height: 100%;
+  } */
+
+ 
+
+
+/* .nav-container {
+  width: 80%
+}
+ h1 
+{ 
+  font-family: shizuru , cursive;
+  font-size: 4em;
+  font-weight: i, 00;
+}
+main .h2 {
+  font-size: 1.5em ; 
+
+}
+.box-container p { 
+  font-size: 1em;
+}
+.menu li { 
+  font-size: 1.5em;
+}
+header .menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+  margin-bottom: 20px;
+}
+
+.main-content-container { 
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10
+ 
+}
+
+main .box-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+main .about {
+  background-color: salmon;
+  border-radius: 5%;
+  width: 50%;
+  padding: 50px 50px 100px 100px;
+  border: 10px 10px;
+  margin-left: 10vmin;
+}
+
+.profile-pic { 
+  display: flex; 
+  justify-content: center;
+  background-color: rgb(255, 169, 160);
+}
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-right: 10vmin; 
+} 
+
+.footer { 
+  background-color: sandybrown;
+  display: flex;
+  align-items: center;
+}
+
+
+
+@media (max-width: 100px) { /* CSS Rules */ }
+ */
+
+
+
