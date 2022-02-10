@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -14,9 +15,6 @@ header {
   justify-content: space-between;
   padding: 10px 1%;
   background-color: rgb(95, 197, 195);
-  position: fixed;
-  width: 100%;
-  top: 0;
 }
 
 li, a, button, h3, h2 {
@@ -30,11 +28,6 @@ li, a, button, h3, h2 {
 .bird-logo {
   width: 200px;
 }
-
-.bird-2 {
-  width: 20vw;
-}
-
 
 h2 {
   cursor: pointer;
@@ -63,30 +56,34 @@ button {
   padding: 9px 25px;
   background-color: aquamarine;
   border: none;
-  border-radius: 4%;
+  border-radius: 10%;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  margin-right: 40px;
 }
 
 button:hover {
   background-color: rgb(156, 229, 228);
 }
 
-
+.menu {
+  /* background-color:  #67edf7 */
+  ;
+}
 
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
+  /* justify-content: center; */
+  /* align-content: space-between; */
+}
 
 .logo {
   border-radius: 20%;
-  margin-top: 125px;
-  width: 30vw;
-  max-width: 350px;
+  margin-top: 40px;
+  width: 40vw;
+  max-width: 400px;
   margin-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -94,8 +91,9 @@ button:hover {
 
 .about {
   width: 50vw;
+  /* border-radius: ; */
   display: flex;
-  justify-content: space-around;
+
   align-items: center;
   margin-top: 30px;
 
@@ -106,7 +104,7 @@ button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4%;
   background-color: rgb(251, 244, 244);
-
+  margin-right: 30px;
 }
 
 
@@ -128,10 +126,10 @@ p {
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  margin: 1.5vw;
+  /* margin-right: 10vmin; 
+  margin-left: 10vm; */
   padding: 20px 20px;
   border: 3px solid rgb(251, 244, 244);
-  margin-left: 40px;
 }
 
 hr {
@@ -140,21 +138,22 @@ hr {
   background-image: url("freesvg.org/img/Birds-On-A-Wire-Silhouette.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
-
+  /* .. */
 }
 
-.values {
+.blog-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: rgb(251, 244, 244);
-  margin-top: 1.5vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 50vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4%;
 }
 
-.values-content {
+.blog-content {
   padding: 50px;
 }
 
@@ -162,7 +161,17 @@ ul {
   list-style-position: inside;
 }
 
-
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 10%;
+  text-align: center;
+  padding: 3px 1%;
+  background-color: rgb(95, 197, 195);
+  color: white;
+  height: 50px;
+}
 
 .social {
   margin-right: auto;
@@ -177,103 +186,6 @@ ul {
     flex-direction: column-reverse;
   }
 
-}
-
-/* 
-blog content  */
-
-#main-content-blog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 50px;
-  margin-top: 100px;
-}
-
-.card {
-  max-width: 400px;
-  box-sizing: border-box;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 4%;
-  background-color: rgb(251, 244, 244);
-  margin: 1.5vw;
-
-}
-
-#profile-pic-header {
-  width: 300px;
-  height: 300px;
-  max-height: 400px;
-
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-.card__content {
-  width: 100%;
-  padding-left: 10px;
-
-}
-
-.card__date {
-  display: block;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-}
-
-.card__title {
-
-  display: block;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  margin-bottom: 6px;
-}
-
-/* 
-positioning blog */
-
-.main-content-positioning {
-  display: flex;
-  justify-content: center;
-
-}
-
-.positioning-content {
-
-
-  background-color: rgb(251, 244, 244);
-  margin-top: 100px;
-  width: 50vw;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 4%;
-}
-
-.positioning-content {
-  padding: 50px;
-
-}
-
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 30px 10%;
-  text-align: center;
-  padding: 3px 1%;
-  background-color: rgb(95, 197, 195);
-  color: white;
-  height: 50px;
-
-
-  width: 100%;
-  bottom: 0;
+  /* CSS Rules */
 
 }
