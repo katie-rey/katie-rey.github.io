@@ -22,10 +22,18 @@ header {
 
 /*nav bar */
 
-li, a, button, h2 {
+li, button, h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  color: rgb(39, 206, 203);
+  text-decoration: none;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   color: rgb(39, 206, 203);
   text-decoration: none;
 }
