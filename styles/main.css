@@ -166,8 +166,6 @@ ul {
   list-style-position: inside;
 }
 
-
-
 .social {
   margin-right: auto;
 }
@@ -180,11 +178,9 @@ ul {
   .about {
     flex-direction: column;
   }
-
 }
 
 @media (max-width: 700px) {
-
   .profile-pic {
     margin-top: 20px;
   }
@@ -210,7 +206,7 @@ blog content  */
   flex-direction: column;
   padding: 20px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 4%;
+  border-radius: 25px;
   background-color: rgb(251, 244, 244);
   margin: 1.5vw;
 
@@ -263,7 +259,7 @@ positioning blog */
   margin-top: 100px;
   width: 50vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 4%;
+  border-radius: 25px;
 }
 
 .positioning-content {
@@ -287,4 +283,8 @@ footer {
   width: 100%;
   bottom: 0;
 
+}
+
+#relative, #fixed, #absolute {
+  max-height: 200px;
 }
