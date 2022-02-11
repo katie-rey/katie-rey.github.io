@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(156, 229, 228);
+  background-color: rgb(195, 226, 225);
 }
 
 header {
@@ -13,18 +13,25 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 1%;
-  background-color: rgb(95, 197, 195);
-  position: fixed;
+  background-color: rgb(195, 226, 225);
+  /* position: fixed; */
   width: 100%;
   top: 0;
 }
 
-li, a, button, h3, h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+li, a, button, h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  color: #0088a9;
+  color: rgb(39, 206, 203);
   text-decoration: none;
+}
+
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
 }
 
 .bird-logo {
@@ -37,8 +44,12 @@ li, a, button, h3, h2 {
 
 
 h2 {
-  cursor: pointer;
   font-size: 20px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .nav-links {
@@ -61,7 +72,7 @@ h2 {
 
 button {
   padding: 9px 25px;
-  background-color: aquamarine;
+  background-color: rgb(157, 255, 222);
   border: none;
   border-radius: 4%;
   cursor: pointer;
@@ -81,7 +92,7 @@ button:hover {
   align-items: center;
 }
 
-
+/* 
 .logo {
   border-radius: 25%;
   margin-top: 100px;
@@ -112,12 +123,6 @@ button:hover {
 }
 
 
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  text-decoration: none;
-}
 
 .profile-pic {
   display: flex;
@@ -136,7 +141,7 @@ p {
   border: 3px solid rgb(251, 244, 244);
   /* margin-left: 40px; */
 
-}
+/* } */
 
 hr {
   width: 60%;
@@ -147,6 +152,8 @@ hr {
 
 }
 
+
+/* 
 .values {
   display: flex;
   flex-direction: column;
@@ -184,10 +191,26 @@ ul {
   .profile-pic {
     margin-top: 20px;
   }
-}
+} */
 
 /* 
 blog content  */
+
+
+.white-space {
+  display: flex;
+
+  justify-content: center;
+  /* max-width: 100%; */
+  background-color: #ffffff;
+  /* margin: 10px;
+  padding-right: 20px; */
+  height: 5vw;
+}
+
+#header3 {
+  max-width: 30vw;
+}
 
 #main-content-blog {
   display: flex;
@@ -206,7 +229,7 @@ blog content  */
   flex-direction: column;
   padding: 20px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 25px;
+
   background-color: rgb(251, 244, 244);
   margin: 1.5vw;
 
@@ -257,6 +280,7 @@ positioning blog */
 
   background-color: rgb(251, 244, 244);
   margin-top: 100px;
+  margin-bottom: 100px;
   width: 50vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 25px;
@@ -266,7 +290,6 @@ positioning blog */
   padding: 50px;
 
 }
-
 
 footer {
   display: flex;
@@ -278,13 +301,26 @@ footer {
   background-color: rgb(95, 197, 195);
   color: white;
   height: 50px;
-
-
   width: 100%;
   bottom: 0;
+
 
 }
 
 #relative, #fixed, #absolute {
   max-height: 200px;
+}
+
+.copyright {
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.social {
+  margin-right: auto;
+}
+
+.positioning-content ul li {
+  list-style-position: inside;
 }
