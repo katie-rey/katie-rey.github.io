@@ -217,8 +217,8 @@ blog content  */
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  margin: 50px;
-  margin-top: 100px;
+  margin: 50px 30px;
+
 }
 
 .card {
@@ -354,5 +354,12 @@ footer {
     .main-content-positing {
       width: 80vw;
     }
+  }
+}
+
+@media (max-width: 450px) {
+  .main-content-blog {
+    width: 80vw;
+    margin: 30px;
   }
 }
