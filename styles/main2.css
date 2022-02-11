@@ -288,3 +288,15 @@ footer  */
     height: 18vw;
   }
 }
+
+@media (max-width: 750px) {
+  .positioning-content {
+    width: 80vw;
+  }
+
+  @media (max-width: 750px) {
+    .main-content-positing {
+      width: 80vw;
+    }
+  }
+}

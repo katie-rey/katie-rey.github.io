@@ -324,3 +324,35 @@ footer {
 .positioning-content ul li {
   list-style-position: inside;
 }
+
+
+
+
+@media (max-width: 700px) {
+  .fa-brands {
+    width: 10vw;
+  }
+
+  .footer {
+    height: 18vw;
+  }
+
+  .bird-logo {
+    width: 30vw;
+  }
+
+
+
+}
+
+@media (max-width: 750px) {
+  .positioning-content {
+    width: 80vw;
+  }
+
+  @media (max-width: 750px) {
+    .main-content-positing {
+      width: 80vw;
+    }
+  }
+}
