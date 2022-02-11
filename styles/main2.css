@@ -281,6 +281,10 @@ footer  */
 
 @media (max-width: 700px) {
   .fa-brands {
-    max-width: 5vw;
+    width: 10vw;
+  }
+
+  .footer {
+    height: 18vw;
   }
 }
