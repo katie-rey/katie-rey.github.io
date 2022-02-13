@@ -222,9 +222,10 @@ blog content  */
 }
 
 .card {
-  max-width: 400px;
+  /* max-width: 400px; */
+  /* width: 10vw; */
   box-sizing: border-box;
-  margin: 20px;
+
   display: flex;
   flex-direction: column;
   padding: 20px 20px;
@@ -325,12 +326,43 @@ footer {
   list-style-position: inside;
 }
 
+/* about me page  */
 
+.about-me-container {
+  display: flex;
+  align-content: center;
+}
 
+.about-me-content {
+  padding: 20px 20px 20px 0px;
+}
+
+.boston-image {
+  width: 15vw;
+}
+
+.dog-video-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .boston-image {
+    width: 40vw;
+  }
+}
 
 @media (max-width: 700px) {
   .fa-brands {
     width: 10vw;
+
+    .boston-image {
+      width: 50vw;
+    }
   }
 
   .footer {
@@ -340,9 +372,6 @@ footer {
   .bird-logo {
     width: 30vw;
   }
-
-
-
 }
 
 @media (max-width: 750px) {
@@ -362,4 +391,12 @@ footer {
     width: 80vw;
     margin: 30px;
   }
+
+
 }
+
+/* @media (max-width: 800px) {
+  .card { 
+    width: 20vw;
+  }
+} */
