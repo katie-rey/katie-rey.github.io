@@ -276,7 +276,7 @@ positioning blog */
 
 }
 
-.positioning-content {
+.positioning-content, .javascript-content, .eq-content {
 
 
   background-color: rgb(251, 244, 244);
@@ -287,7 +287,7 @@ positioning blog */
   border-radius: 25px;
 }
 
-.positioning-content {
+.positioning-content, .javascript-content, .eq-content {
   padding: 50px;
 
 }
