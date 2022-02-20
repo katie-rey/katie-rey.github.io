@@ -333,7 +333,7 @@ footer {
   align-content: center;
 }
 
-.about-me-content {
+.about-me-content, {
   padding: 20px 20px 20px 0px;
 }
 
@@ -381,7 +381,7 @@ ol li {
 }
 
 @media (max-width: 750px) {
-  .positioning-content {
+  .positioning-content, .eq-content, .javascript-content {
     width: 80vw;
   }
 
@@ -393,7 +393,7 @@ ol li {
 }
 
 @media (max-width: 450px) {
-  .main-content-blog {
+  .main-content-blog, .eq-content {
     width: 80vw;
     margin: 30px;
   }
