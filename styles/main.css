@@ -19,7 +19,7 @@ header {
   top: 0;
 }
 
-li, a, button, h2 {
+li, header a, button, h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -27,6 +27,11 @@ li, a, button, h2 {
   text-decoration: none;
 }
 
+
+a {
+  color: black;
+  font-weight: 500;
+}
 
 p {
   font-family: "Roboto", sans-serif;
@@ -291,6 +296,10 @@ positioning blog */
   padding: 50px;
 
 }
+
+.positioning-content a {}
+
+
 
 footer {
   display: flex;
